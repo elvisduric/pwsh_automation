@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductionRequest action="startexport">
+	<Parameter name="Transformer" value="production_html"/>
+	<Parameter name="TransformerPluginType" value="book"/>
+	<Parameter name="doNoRemoveFromFinishedList" value="false"/>
+	<Parameter name="UserLanguage" value="en"/>
+	<Parameter name="XMLContents">
+		<Structure>
+			<Branch filter="1251416596485">
+				<Object checked="true" nodeID="1531249392740" guid="71bbf7b8-9e12-4d57-961e-7aa3c0808a4c">
+					<RefControl webdavID="1516132311526" serverID="JACKRABBIT" objType="doc" TargetTitle="Smart Safe Reaction [v1.6]" objectURI="/Production/Manuals/mapp/mapp Safety/Allgemeines/Smart Safe Reaction.theme" checkedState="true" PickerElement="Object" versionLabel="1.6"/>
+				</Object>
+			</Branch>
+			<Branch filter="1251416596485">
+				<Object checked="true" nodeID="1531249392741" guid="9e1174fd-16da-4891-9ca1-c8f16a547120">
+					<RefControl webdavID="1531249320055" serverID="JACKRABBIT" objType="doc" TargetTitle="Safety Releases 1.10 [v1.22]" objectURI="/Production/Manuals/mapp/mapp Safety/Allgemeines/Safety Releases kleiner gleich 1.10.theme" checkedState="true" PickerElement="Object" versionLabel="1.22"/>
+				</Object>
+			</Branch>
+		</Structure>
+	</Parameter>
+	<TrafoParameters>
+		<Parameter name="userLanguage" value="en"/>
+		<Parameter name="language" value="de"/>
+		<Parameter name="subRulesID" value="1301350947984"/>
+		<Parameter name="objType" value="book.doc"/>
+		<Parameter name="bookURL" value="/Production/Manuals/mapp/mapp Safety/Allgemeines/b_Allgemeines.theme"/>
+		<Parameter name="uri" value="/Production/Manuals/mapp/mapp Safety/Allgemeines/b_Allgemeines.theme"/>
+		<Parameter name="versionLabel" value="2.00.14"/>
+		<Parameter name="versionLabelBookTarget" value=""/>
+		<Parameter name="brokerURL" value="http://smc.br-automation.com"/>
+		<Parameter name="stylesID" value="1311882142578"/>
+		<Parameter name="altViewID" value=""/>
+		<Parameter name="characterizationIDs" value="1247709682306,1311698235579,1311698235577,1447279100699,1298377776471"/>
+		<Parameter name="characterizationVersionLabels" value=",,,,"/>
+		<Parameter name="filterType" value="show"/>
+		<Parameter name="propContextXML" value="&lt;propContext/&gt;"/>
+		<Parameter name="serverID" value="JACKRABBIT"/>
+		<Parameter name="stringsID" value="1301521915269"/>
+		<Parameter name="exportDraftVersions" value="true"/>
+		<Parameter name="generateTranslationFileReport" value="false"/>
+		<Parameter name="embedImagesInTranslationXmlFile" value="false"/>
+		<Parameter name="allowExcludeStates" value="false"/>
+		<Parameter name="isAuthorSupportEnabled" value="false"/>
+		<Parameter name="includeTechPackage" value="false"/>
+		<Parameter name="separateSVGs" value="false"/>
+		<Parameter name="preserveStructureGlossary" value="false"/>
+		<Parameter name="OUTPUT_XML" value=""/>
+		<Parameter name="checkLinkVersion" value="false"/>
+		<Parameter name="embeddedSVGs" value="true"/>
+		<Parameter name="isTranslationXLIFF" value="false"/>
+		<Parameter name="diffExport" value="false"/>
+		<Parameter name="exportCompleteContentTranslated" value="false"/>
+		<Parameter name="useBranchBasedContext" value="false"/>
+		<Parameter name="storeFilenames" value="false"/>
+		<Parameter name="oh-hl-filename-prefix" value="Y:\TuM\BuAsw\SourceSafe\AS_Mirror\Help_DataExchange"/>
+		<Parameter name="oh-hl-filename-max-length" value="230"/>
+		<Parameter name="oh-hl-modularhelp-outputtype" value=""/>
+	</TrafoParameters>
+</ProductionRequest>

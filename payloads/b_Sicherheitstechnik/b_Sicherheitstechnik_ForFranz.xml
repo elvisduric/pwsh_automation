@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductionRequest action="startexport">
+	<Parameter name="Transformer" value="production_htmlhelp1"/>
+	<Parameter name="TransformerPluginType" value="book"/>
+	<Parameter name="doNoRemoveFromFinishedList" value="false"/>
+	<Parameter name="UserLanguage" value="en"/>
+	<Parameter name="XMLContents">
+		<Structure>
+			<Branch filter="1251416596485">
+				<Object merge="true" checked="true" nodeID="1512304512325" guid="8c6d12ae-34f2-4a5f-bfad-3837a350fd58">
+					<RefControl webdavID="1512108759831" serverID="JACKRABBIT" objType="doc" TargetTitle="mapp Safety [v1.25]" objectURI="/Production/Manuals/mapp/mapp Safety/mapp Safety/mapp Safety.theme" checkedState="true" PickerElement="Object" versionLabel="1.25"/>
+				</Object>
+			</Branch>
+		</Structure>
+	</Parameter>
+	<TrafoParameters>
+		<Parameter name="userLanguage" value="en"/>
+		<Parameter name="language" value="de"/>
+		<Parameter name="subRulesID" value="1301350947984"/>
+		<Parameter name="objType" value="book.doc"/>
+		<Parameter name="bookURL" value="/Production/Manuals/mapp/mapp Safety/mapp Safety/b_mapp Safety.theme"/>
+		<Parameter name="uri" value="/Production/Manuals/mapp/mapp Safety/mapp Safety/b_mapp Safety.theme"/>
+		<Parameter name="versionLabel" value="6.0"/>
+		<Parameter name="versionLabelBookTarget" value=""/>
+		<Parameter name="brokerURL" value="http://smc.br-automation.com"/>
+		<Parameter name="stylesID" value="1328503030763"/>
+		<Parameter name="altViewID" value=""/>
+		<Parameter name="characterizationIDs" value="1247709682306,1311698235581,1311698235577,1298377776471"/>
+		<Parameter name="characterizationVersionLabels" value=",,,"/>
+		<Parameter name="filterType" value="show"/>
+		<Parameter name="propContextXML" value="&lt;propContext/&gt;"/>
+		<Parameter name="serverID" value="JACKRABBIT"/>
+		<Parameter name="stringsID" value="1301521915269"/>
+		<Parameter name="exportDraftVersions" value="true"/>
+		<Parameter name="generateTranslationFileReport" value="false"/>
+		<Parameter name="embedImagesInTranslationXmlFile" value="false"/>
+		<Parameter name="allowExcludeStates" value="false"/>
+		<Parameter name="isAuthorSupportEnabled" value="false"/>
+		<Parameter name="includeTechPackage" value="false"/>
+		<Parameter name="separateSVGs" value="false"/>
+		<Parameter name="preserveStructureGlossary" value="false"/>
+		<Parameter name="OUTPUT_XML" value=""/>
+		<Parameter name="checkLinkVersion" value="false"/>
+		<Parameter name="embeddedSVGs" value="true"/>
+		<Parameter name="isTranslationXLIFF" value="false"/>
+		<Parameter name="diffExport" value="false"/>
+		<Parameter name="exportCompleteContentTranslated" value="false"/>
+		<Parameter name="useBranchBasedContext" value="false"/>
+		<Parameter name="generateChiFile" value="false"/>
+		<Parameter name="includeHhpFile" value="true"/>
+	</TrafoParameters>
+</ProductionRequest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductionRequest action="startexport">
+	<Parameter name="Transformer" value="production_pdf_generic"/>
+	<Parameter name="TransformerPluginType" value="book"/>
+	<Parameter name="doNoRemoveFromFinishedList" value="false"/>
+	<Parameter name="UserLanguage" value="en"/>
+	<Parameter name="XMLContents">
+		<Structure>
+			<Branch filter="1251416596485">
+				<Object merge="true" checked="true" nodeID="1513179787580" guid="f7569ad3-f336-42dd-b153-38471e1d1b15">
+					<RefControl webdavID="1512108774319" serverID="JACKRABBIT" objType="doc" TargetTitle="X20(c)SOx530 [v1.17]" objectURI="/Production/Manuals/mapp/mapp Safety/Datenblätter/X20 System/Digitale Ausgangsmodule/X20SOx530/X20SOx530.theme" checkedState="true" PickerElement="Object" versionLabel="1.17"/>
+				</Object>
+			</Branch>
+		</Structure>
+	</Parameter>
+	<TrafoParameters>
+		<Parameter name="userLanguage" value="en"/>
+		<Parameter name="language" value="de"/>
+		<Parameter name="subRulesID" value="1318426352149"/>
+		<Parameter name="objType" value="book.doc"/>
+		<Parameter name="bookURL" value="/Production/Manuals/mapp/mapp Safety/Datenblätter/X20 System/Digitale Ausgangsmodule/X20SOx530.theme"/>
+		<Parameter name="uri" value="/Production/Manuals/mapp/mapp Safety/Datenblätter/X20 System/Digitale Ausgangsmodule/X20SOx530.theme"/>
+		<Parameter name="versionLabel" value="2.20"/>
+		<Parameter name="versionLabelBookTarget" value=""/>
+		<Parameter name="brokerURL" value="http://smc.br-automation.com"/>
+		<Parameter name="stylesID" value="1317088153809"/>
+		<Parameter name="altViewID" value=""/>
+		<Parameter name="characterizationIDs" value="1247709682306,1296663831405,1447279100697,1308164970792"/>
+		<Parameter name="characterizationVersionLabels" value=",,,"/>
+		<Parameter name="filterType" value="show"/>
+		<Parameter name="propContextXML" value="&lt;propContext/&gt;"/>
+		<Parameter name="serverID" value="JACKRABBIT"/>
+		<Parameter name="stringsID" value="1307930731734"/>
+		<Parameter name="exportDraftVersions" value="true"/>
+		<Parameter name="generateTranslationFileReport" value="false"/>
+		<Parameter name="embedImagesInTranslationXmlFile" value="false"/>
+		<Parameter name="allowExcludeStates" value="false"/>
+		<Parameter name="isAuthorSupportEnabled" value="false"/>
+		<Parameter name="includeTechPackage" value="false"/>
+		<Parameter name="separateSVGs" value="false"/>
+		<Parameter name="preserveStructureGlossary" value="false"/>
+		<Parameter name="OUTPUT_XML" value=""/>
+		<Parameter name="checkLinkVersion" value="false"/>
+		<Parameter name="embeddedSVGs" value="true"/>
+		<Parameter name="isTranslationXLIFF" value="false"/>
+		<Parameter name="diffExport" value="false"/>
+		<Parameter name="exportCompleteContentTranslated" value="false"/>
+		<Parameter name="PREPRESS_SUPPORT" value="false"/>
+		<Parameter name="MOD_PAGES" value="1"/>
+		<Parameter name="maxImageResolution" value=""/>
+		<Parameter name="useBranchBasedContext" value="false"/>
+		<Parameter name="pdfAllowPrint" value="true"/>
+		<Parameter name="pdfAllowCopyPaste" value="true"/>
+		<Parameter name="pdfAllowEditContent" value="true"/>
+		<Parameter name="pdfAllowEditAnnotations" value="true"/>
+		<Parameter name="markMovedBlocksByComparison" value="true"/>
+		<Parameter name="compareChangedImages" value="true"/>
+	</TrafoParameters>
+</ProductionRequest>
