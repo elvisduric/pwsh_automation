@@ -1,12 +1,12 @@
 # Set your credentials
-$username = "safetybuildserver"
-$password = "Buildserver2023+=21"
+$username = '$env:USERNAME'
+$password = '$env:PASSWORD'
 
 # Base64 encode the credentials
 $base64Auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $username, $password)))
 
 # SMC Environment
-$baseUrl = "http://smc-qs.br-automation.co.at/api"
+$baseUrl = '$env:BASEURL'
 
 # Get running processes
 $endpoint = "$baseUrl/tasks/task-production?serverId=JACKRABBIT&status=RUNNING"
