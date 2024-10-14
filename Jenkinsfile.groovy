@@ -2,8 +2,8 @@
 
 // Returns selected SMC environment based on Environment jenkins parameter
 def getEnvironment() {
-    def PRODUCTION = 'http://smc.br-automation.com'
-    def TEST = 'http://smc-qs.br-automation.co.at'
+    def PRODUCTION = '$env:PRODURL'
+    def TEST = '$env:TESTURL'
     
     if (params.ENVIRONMENT == 'Production') {
         return PRODUCTION;
